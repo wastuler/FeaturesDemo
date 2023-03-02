@@ -1,0 +1,80 @@
+Project:
+ Name: FeaturesDemo1_Design
+ ProjectNamespaceIndex: 22
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.0
+ CoreVersion: 1.0
+ Dependencies:
+  2:
+   Uri: FeaturesDemo1
+   RelativePath: FeaturesDemo1.optix
+  3:
+   Uri: '7e2ccf57a794386852a6f91d13cf54b1#urn:Windows10-RA-Events:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 7e2ccf57a794386852a6f91d13cf54b1
+  4:
+   Uri: '7e2ccf57a794386852a6f91d13cf54b1#http://opcfoundation.org/UA/DI/'
+   ServerUri: 7e2ccf57a794386852a6f91d13cf54b1
+  5:
+   Uri: '7e2ccf57a794386852a6f91d13cf54b1#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 7e2ccf57a794386852a6f91d13cf54b1
+  6:
+   Uri: '7e2ccf57a794386852a6f91d13cf54b1#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 7e2ccf57a794386852a6f91d13cf54b1
+  7:
+   Uri: '4b8dac54951f817fb1448c7cd9e3ddda#urn:Windows10-RA-Events:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 4b8dac54951f817fb1448c7cd9e3ddda
+  8:
+   Uri: '4b8dac54951f817fb1448c7cd9e3ddda#http://opcfoundation.org/UA/DI/'
+   ServerUri: 4b8dac54951f817fb1448c7cd9e3ddda
+  9:
+   Uri: '4b8dac54951f817fb1448c7cd9e3ddda#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 4b8dac54951f817fb1448c7cd9e3ddda
+  10:
+   Uri: '4b8dac54951f817fb1448c7cd9e3ddda#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 4b8dac54951f817fb1448c7cd9e3ddda
+  11:
+   Uri: '5b52bad5405c14e6ba9ce908d9ac01c7#urn:Windows10-RA-Events:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 5b52bad5405c14e6ba9ce908d9ac01c7
+  12:
+   Uri: '5b52bad5405c14e6ba9ce908d9ac01c7#http://opcfoundation.org/UA/DI/'
+   ServerUri: 5b52bad5405c14e6ba9ce908d9ac01c7
+  13:
+   Uri: '5b52bad5405c14e6ba9ce908d9ac01c7#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 5b52bad5405c14e6ba9ce908d9ac01c7
+  14:
+   Uri: '5b52bad5405c14e6ba9ce908d9ac01c7#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 5b52bad5405c14e6ba9ce908d9ac01c7
+  15:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 1.0
+  16:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 1.0
+  17:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.0
+  18:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  19:
+   Uri: 'urn:FTOptix:CODESYSTagImporter'
+   Module: FTOptix.CODESYSTagImporter
+   Version: 1.0
+  20:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+  21:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/CodesysDriver1/CodesysStation1/TagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient1/OPCUATagImporter.yaml'
