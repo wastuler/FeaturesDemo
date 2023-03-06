@@ -3692,7 +3692,7 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 3
-        - Name: RelativeAllignment
+        - Name: RelativeAlignment
           Id: g=7387c9f8a46156b4b14bbf9bce6db9da
           Type: QWindowWithTitleBar
           Children:
@@ -3709,7 +3709,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"NamespaceIndex":52,"TextId":"Relative allignment"}
+                Value: {"LocaleId":"en-US","Text":"Relative alignment"}
               - Name: HorizontalAlignment
                 Id: g=3fa639342637e8c8c1a0aaf1a9b9ffc6
                 Type: BaseVariableType
@@ -3722,6 +3722,30 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 2
+              - Name: LeftMargin
+                Id: g=2c9c8183cb32a72169fcbed7dcbd81e0
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -15.0
+              - Name: RightMargin
+                Id: g=16fab389a76b37440c0137102ef60d42
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Id: g=08e85040364c8b5414bd579a5455d4ae
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -10.0
+              - Name: BottomMargin
+                Id: g=7f60a04437986b2a13fe438c42f3abba
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
             - Name: BorderColor
               Id: g=c2bdcb084c5263b0968ce9016fb3abec
               Type: BaseDataVariableType
@@ -3764,16 +3788,28 @@ Children:
                     Type: DynamicLink
                     DataType: NodePath
                     Value: "{NodeId:ns=52;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            - Name: TopMargin
+              Id: g=4cddefaa51db1a066e3fe372842886cd
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -1.0
+            - Name: VerticalAlignment
+              Id: g=7c039c83a5d435abfbc0afe877c730c6
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 0
           - Name: LeftMargin
             Id: g=cb772f1bcdae2601a621d011a098b933
             Type: BaseVariableType
             DataType: Size
-            Value: 0.0
+            Value: 2.0
           - Name: TopMargin
             Id: g=23ae9fe497679c2a926b9bd7dd4604cd
             Type: BaseVariableType
             DataType: Size
-            Value: 0.0
+            Value: -1.0
           - Name: Height
             Id: g=01c60324477096e457fe57bf1a66df24
             Type: BaseVariableType
@@ -20623,7 +20659,6 @@ Children:
       - Name: Conveyor1ToConveyor2_11200ms
         Id: g=4f03c35d755b5e5ff9e674104773cf7e
         Type: SequentialAnimation
-        ReferenceType: HasAnimation
         Children:
         - Name: Running
           Id: g=aa173faabb1d116d584facb535a210ae
@@ -20639,7 +20674,6 @@ Children:
         - Name: Number(WAIT)2500ms
           Id: g=074075b883ff1bf9846090de83f58977
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=f962166ffcacad0917cf8f68a05f1d67
@@ -20676,7 +20710,6 @@ Children:
         - Name: Number(DOWN)1000ms
           Id: g=f4ccd4e255c3c127cdca6a899bb6fbbd
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=109a9a5cca612243fcd3e26f386ba3e0
@@ -20719,7 +20752,6 @@ Children:
         - Name: Number(UP)1600ms
           Id: g=afc947c227bbe348b18282e4595f5e30
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=6f876a9949ac550e45031b28bf076c4f
@@ -20768,7 +20800,6 @@ Children:
         - Name: Parallel(POS1)2600ms
           Id: g=2fd1442ae7461724a989027c0d446fa5
           Type: ParallelAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: Running
             Id: g=0f1acac8a5b4d1ba53b8c19a6e7ca59c
@@ -20778,7 +20809,6 @@ Children:
           - Name: Number(LEFT)2000ms
             Id: g=b2aa1bed92f7d72efc4f97f9671db9d9
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=856c6036b0c2e35806080665b6ec59b7
@@ -20821,7 +20851,6 @@ Children:
           - Name: Number(SIZE)2100ms
             Id: g=3a8bd4f1d3f9ad8a86254c8bd7db3687
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=c5d6ddc1ac7671ecadbcb67b7e5a5722
@@ -20864,7 +20893,6 @@ Children:
           - Name: Number(DOWN)2600ms
             Id: g=27e84e4e869091487499c1e6f2da0189
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=5d3cfe96be36f0b4acb060a9500ce091
@@ -20907,7 +20935,6 @@ Children:
           - Name: Number(FADE)1800ms
             Id: g=18b669bc8ca9fcaa85d0976c1252d0cf
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=b5f88c3f60ac183ae09f9a8b346a11c7
@@ -20950,7 +20977,6 @@ Children:
         - Name: Parallel(POS0)3500ms
           Id: g=da7a1a4e8e0ce51635ae0b22165185b9
           Type: ParallelAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: Running
             Id: g=d8df7ccab089cc71e0c0e3bbbb7efe6c
@@ -20960,7 +20986,6 @@ Children:
           - Name: Number(FADE)3500ms
             Id: g=aee0a6ec9d9404be66e6245687bd0676
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=65001033f27a493b7dab4ff33469124c
@@ -21003,7 +21028,6 @@ Children:
           - Name: Number(UP)2550ms
             Id: g=fb290a7fe8ebcabe09507c48bbc103ee
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=c1fa3fd2ce49d389841ffa3573e0a4aa
@@ -21046,7 +21070,6 @@ Children:
           - Name: Number(SIZE)3500ms
             Id: g=054223eefcb675dfc8b5fb615d0bf35b
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=46060de12a4d61d88d024d318a138fe5
@@ -21089,7 +21112,6 @@ Children:
           - Name: Number(RIGHT)3500ms
             Id: g=facd2ce175f3a9bce58f3871188dd4e5
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=7855d5a356fa1ad6ed9048b41cf777bc
@@ -21334,7 +21356,6 @@ Children:
       - Name: BoxConveyor2_11200ms
         Id: g=f2338338d47ccdc7b955d885239b1130
         Type: SequentialAnimation
-        ReferenceType: HasAnimation
         Children:
         - Name: Running
           Id: g=22c0e39f8217ca3c8ec59325919e1f0e
@@ -21356,7 +21377,6 @@ Children:
         - Name: Number(WAIT)0ms
           Id: g=1c70e3f1feae74d6fe444bf7fdda2853
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=c2841b5c999e5fcd60da01b116fd190d
@@ -21393,7 +21413,6 @@ Children:
         - Name: Number(RIGHT)3500ms
           Id: g=8b65211fb9d6c514eaec6cddf9efc61d
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=485a47f76a8710fc2abca99959f2f87f
@@ -21436,7 +21455,6 @@ Children:
         - Name: Number(UP)1600ms
           Id: g=5b5237e70f6b880552806de6f78f0b4b
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=8abb15b49174011828053bd40305dbe7
@@ -21479,7 +21497,6 @@ Children:
         - Name: Parallel(POS1)2050ms
           Id: g=d50b6d5964b8ed26bb73405c168c2a7e
           Type: ParallelAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: Running
             Id: g=2d4ddf09f9664c2d495e7bb2508729ce
@@ -21489,7 +21506,6 @@ Children:
           - Name: Number(LEFT)2000ms
             Id: g=06687c8d6427ea1aa12757e9bc6a9dcc
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=755523ebcf91134625f5aa95bf1fef3a
@@ -21532,7 +21548,6 @@ Children:
           - Name: Number(SIZE)2050ms
             Id: g=b4652c208548dc36a80bfba3bf32376f
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=d6e1a069c593087699cbb3579f04249e
@@ -21575,7 +21590,6 @@ Children:
           - Name: Number(FADE)2000ms
             Id: g=f39dffa24705624646cec7bb6930f62a
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=24b6c1613ec70cf24557fe6135d73e99
@@ -21618,7 +21632,6 @@ Children:
         - Name: Number(DOWN)650ms
           Id: g=fec740180d74ff091c8d4da7c42cdb48
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=1f0858bd4fdbaa140b3f4daa152848f3
@@ -21661,7 +21674,6 @@ Children:
         - Name: Number(LEFT)1500ms
           Id: g=1b4df3ed57f328d996506880747623ad
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=c89d24e463885330b7b0f567490846ad
@@ -21704,7 +21716,6 @@ Children:
         - Name: Parallel(POS2)1500ms
           Id: g=86b866e2c5b9c1be7cfb47d9a99e6479
           Type: ParallelAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: Running
             Id: g=0a54be8261cd60c447b36b1d3c2b6d11
@@ -21714,7 +21725,6 @@ Children:
           - Name: Number(LEFT)1500ms
             Id: g=d9221fe7a3c8851ca30bb898bfb5a46b
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=ea4019e4498c45ca99a1e9c926f88777
@@ -21757,7 +21767,6 @@ Children:
           - Name: Number(DOWN)1500ms
             Id: g=e5f08d098e5c5a490241bc12d49127dd
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=d8e1a28d2a227988e0e7afb34628a64c
@@ -21800,7 +21809,6 @@ Children:
           - Name: Number(SPIN)1500ms
             Id: g=2d1550a3b4b9c73296c5c30ecf44f5f7
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=4f2bb99b1d5d1fba598d218768284f44
@@ -21837,7 +21845,6 @@ Children:
         - Name: Number(LEFT)200ms
           Id: g=036d384d0b1ceda4e32714e2a974d8c5
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=c59e4c78e340cfef81ef09d5b40ec93c
@@ -21880,7 +21887,6 @@ Children:
         - Name: Parallel(POS0)200ms
           Id: g=946c281fb788aa5f3587fb56000570f9
           Type: ParallelAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: Running
             Id: g=31f1ed2fca9f03be093431f45b751dc2
@@ -21890,7 +21896,6 @@ Children:
           - Name: Number(DOWN)200ms
             Id: g=28bfdec9dc825d2cb4a100f17a1cfe02
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=94f15528d26dfcb3ec1e74cb2b695270
@@ -21933,7 +21938,6 @@ Children:
           - Name: Number(FADE)200ms
             Id: g=dc8728d8de71b429a63e077c7d32bd72
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=4996e10db7094f04a1b02c5c47a97aff
@@ -21976,7 +21980,6 @@ Children:
           - Name: Number(SIZE)200ms
             Id: g=fe9a3112cad77c20b0a34a59621b0f75
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=a3e9a84eec0c32e073d38e47166feec8
@@ -22019,7 +22022,6 @@ Children:
           - Name: Number(SPIN)200ms
             Id: g=95f703959c5ccee872f885bb1e356638
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=46adc9c7c085b76282a4176c082826d2
@@ -22457,7 +22459,6 @@ Children:
       - Name: Box1Conveyor1_11200ms
         Id: g=1864aa2ea1ea7358a02ab516b9633316
         Type: SequentialAnimation
-        ReferenceType: HasAnimation
         Children:
         - Name: Running
           Id: g=fde0a9b1ca764f7fd80d9169f8da6943
@@ -22473,7 +22474,6 @@ Children:
         - Name: Number(WAIT)3200ms
           Id: g=b93000f25cb4914d382650ae46870416
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=ff1088b6465ca05186ee8e65f94724e7
@@ -22510,7 +22510,6 @@ Children:
         - Name: Number(RIGHT)3500ms
           Id: g=1252fc8512f556c9ddf09856c38776b0
           Type: NumberAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: To
             Id: g=a45e651ecdd22656cc5af08b300e9a44
@@ -22553,7 +22552,6 @@ Children:
         - Name: Parallel(POS1)3000ms
           Id: g=d2defd13d8f661d79435f1fc5b403a22
           Type: ParallelAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: Running
             Id: g=290678eaddbe62769921fd3f56a237a4
@@ -22563,7 +22561,6 @@ Children:
           - Name: Number(RIGHT)1800ms
             Id: g=622c4add4c44f71840a79af6ac52d966
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=ec68bead6221efbdfcca1d83421f1dbd
@@ -22612,7 +22609,6 @@ Children:
           - Name: Number(DOWN)3000ms
             Id: g=c71456ee0842bb2fb2dc85b787ad3981
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=78c8ab7f1488f790b8c3ccd182a4c01e
@@ -22661,7 +22657,6 @@ Children:
           - Name: Number(SPIN)3000ms
             Id: g=b4617a48015766c57f3c1c4c744868fd
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=d277f3b5cbc3f19df0eb63dea68b92de
@@ -22710,7 +22705,6 @@ Children:
         - Name: Sequential(POS0)1500ms
           Id: g=c511d8028f3b08cdba1429565a124ab7
           Type: SequentialAnimation
-          ReferenceType: HasAnimation
           Children:
           - Name: Running
             Id: g=aebf3db0423b5731630340b4aeed0f70
@@ -22720,7 +22714,6 @@ Children:
           - Name: Number(LEFT)500ms
             Id: g=c21e1185234422177bdf163bcd19fde5
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=0154629e04a9ebe121a88d61b28a803e
@@ -22763,7 +22756,6 @@ Children:
           - Name: Number(UP)500ms
             Id: g=71460324e6a282fdd828c7f2f96e26e2
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=55d56129d4cf2c13698b3bcb4b13566c
@@ -22806,7 +22798,6 @@ Children:
           - Name: Number(SPIN)500ms
             Id: g=d2059c25ec4dc0ba5266065a265cfaef
             Type: NumberAnimation
-            ReferenceType: HasAnimation
             Children:
             - Name: To
               Id: g=82be1429a7ba9e86bd77432be92306e2

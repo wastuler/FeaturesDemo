@@ -1125,7 +1125,7 @@ Children:
     Id: g=22d5fe9acbba6876b47b78ae56d5e5f8
     Type: BaseDataVariableType
     DataType: String
-    Value: "192.168.1.20"
+    Value: "Localhost"
   - Name: Port
     Id: g=c47bd97e81d7d8fec36e63ae0b89a487
     Type: BaseDataVariableType

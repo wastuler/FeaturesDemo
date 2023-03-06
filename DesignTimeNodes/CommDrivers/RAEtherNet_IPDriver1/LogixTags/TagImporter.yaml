@@ -1,0 +1,23 @@
+Name: TagImporter
+Id: g=2484305366841de17e10d6aebe3ac709
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=d73e36dd8ee6dc8b600ce1032743792a
+Children:
+- Name: IgnoredPLCItems
+  Id: g=a0be76c3fcdf224ff0e747a8eab23d2b
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=c7d0f0d22bbe1bfe38895eca918960db
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: Mode
+  Id: g=4d0922833b769da36c613d727cffd7db
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 0

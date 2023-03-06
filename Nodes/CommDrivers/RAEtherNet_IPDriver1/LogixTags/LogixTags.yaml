@@ -1,0 +1,37 @@
+Name: LogixTags
+Id: g=d73e36dd8ee6dc8b600ce1032743792a
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Id: g=e7accd99fa2df34ec1b31a796f6776d5
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "10.84.79.64"
+- Name: OperationCode
+  Id: g=3c80dd79ca6342d6fe46b6961acdcc1e
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=41;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=41;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=41;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=41;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=41;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=41;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=9acfce733a1808e82bd057e44cc9ab1b
+  Type: BaseObjectType

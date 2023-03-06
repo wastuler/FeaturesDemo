@@ -5378,7 +5378,6 @@ Children:
               - Name: NumberAnimation1
                 Id: g=ec6c1d64de5bb963d857d1f7798e0ee3
                 Type: NumberAnimation
-                ReferenceType: HasAnimation
                 Children:
                 - Name: To
                   Id: g=6f755fef5f374ffa272b201a4a850ef3

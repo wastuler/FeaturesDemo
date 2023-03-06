@@ -3960,7 +3960,6 @@ Children:
       - Name: NumberAnimation1
         Id: g=d5cf5d45e7c96f02626d1bae9966e2ec
         Type: NumberAnimation
-        ReferenceType: HasAnimation
         Children:
         - Name: To
           Id: g=fe46f0bbf34fbcb314978acede54a00e

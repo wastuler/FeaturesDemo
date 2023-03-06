@@ -75,6 +75,11 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
  Nodes:
  - File: DesignTimeNodes/CommDrivers/CodesysDriver1/CodesysStation1/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/LogixTags/TagImporter.yaml
  - File: 'DesignTimeNodes/OPC-UA/OPCUAClient1/OPCUATagImporter.yaml'

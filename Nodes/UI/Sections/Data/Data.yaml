@@ -11135,7 +11135,6 @@ Children:
             - Name: AnimationOfBehavior
               Id: g=c551e8d74b202a407e50b3442cf95f07
               Type: BehaviourAnimation
-              ReferenceType: HasAnimation
               Children:
               - Name: EasingCurve
                 Id: g=a90eb59eaf5a8ca55e23ce3bc1456e6d
